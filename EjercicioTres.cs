@@ -20,7 +20,7 @@ namespace ConsoleApp3
 
             double c = (cGrados * (Math.PI / 180.0));
             double y = z / Math.Tan(c);
-            double t = Math.Sqrt(z * z + y * y);
+            double t = Math.Sqrt((z * z)+  (y * y));
             double a = 180.0 - (90 + cGrados);
 
             //salida
